@@ -1,0 +1,6 @@
+<h1>Adopt a New Dog!</h1>
+	<%= form_for @dog do |f| %> <!-- Used to create a form -->
+		What do you want to name your dog? <%= f.text_field :name %>
+		How old of a dog do you want? <%= f.text_field :age %>
+		<%= f.submit %> <!-- Syntax for a submit button -->
+	<% end %>
